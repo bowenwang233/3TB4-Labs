@@ -1,0 +1,257 @@
+$comment
+	File created using the following command:
+		vcd file lab1part1.msim.vcd -direction
+$end
+$date
+	Tue Jan 30 15:49:38 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module mux4t1_vlg_vec_tst $end
+$var reg 1 ! in0 $end
+$var reg 1 " in1 $end
+$var reg 1 # in2 $end
+$var reg 1 $ in3 $end
+$var reg 2 % sel [1:0] $end
+$var wire 1 & out $end
+
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 . in3~input_o $end
+$var wire 1 / sel[0]~input_o $end
+$var wire 1 0 in1~input_o $end
+$var wire 1 1 in2~input_o $end
+$var wire 1 2 in0~input_o $end
+$var wire 1 3 sel[1]~input_o $end
+$var wire 1 4 out~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+1#
+0$
+b1 %
+0&
+0'
+1(
+x)
+1*
+1+
+1,
+0-
+0.
+1/
+00
+11
+12
+03
+04
+$end
+#25000
+b11 %
+13
+#50000
+b10 %
+b0 %
+0/
+03
+14
+1&
+#75000
+b10 %
+13
+#100000
+b11 %
+b1 %
+1/
+03
+04
+0&
+#125000
+b11 %
+13
+#150000
+b10 %
+b0 %
+0/
+03
+14
+1&
+#175000
+b10 %
+13
+#200000
+b11 %
+b1 %
+1/
+03
+04
+0&
+#225000
+b11 %
+13
+#250000
+b10 %
+b0 %
+0/
+03
+14
+1&
+#275000
+b10 %
+13
+#300000
+b11 %
+b1 %
+1/
+03
+04
+0&
+#325000
+b11 %
+13
+#350000
+b10 %
+b0 %
+0/
+03
+14
+1&
+#375000
+b10 %
+13
+#400000
+b11 %
+b1 %
+1/
+03
+04
+0&
+#425000
+b11 %
+13
+#450000
+b10 %
+b0 %
+0/
+03
+14
+1&
+#475000
+b10 %
+13
+#500000
+b11 %
+b1 %
+1/
+03
+04
+0&
+#525000
+b11 %
+13
+#550000
+b10 %
+b0 %
+0/
+03
+14
+1&
+#575000
+b10 %
+13
+#600000
+b11 %
+b1 %
+1/
+03
+04
+0&
+#625000
+b11 %
+13
+#650000
+b10 %
+b0 %
+0/
+03
+14
+1&
+#675000
+b10 %
+13
+#700000
+b11 %
+b1 %
+1/
+03
+04
+0&
+#725000
+b11 %
+13
+#750000
+b10 %
+b0 %
+0/
+03
+14
+1&
+#775000
+b10 %
+13
+#800000
+b11 %
+b1 %
+1/
+03
+04
+0&
+#825000
+b11 %
+13
+#850000
+b10 %
+b0 %
+0/
+03
+14
+1&
+#875000
+b10 %
+13
+#900000
+b11 %
+b1 %
+1/
+03
+04
+0&
+#925000
+b11 %
+13
+#950000
+b10 %
+b0 %
+0/
+03
+14
+1&
+#975000
+b10 %
+13
+#1000000
