@@ -1,0 +1,42 @@
+10:59:40 **** Incremental Build of configuration Nios II for project memory_test ****
+make all 
+Info: Building ../memory_test_bsp/
+C:/intelFPGA/17.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../memory_test_bsp/
+[BSP build complete]
+[memory_test build complete]
+10:59:52 **** Incremental Build of configuration Nios II for project memory_test ****
+make all 
+Info: Building ../memory_test_bsp/
+C:/intelFPGA/17.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../memory_test_bsp/
+[BSP build complete]
+[memory_test build complete]
+11:00:44 **** Incremental Build of configuration Nios II for project memory_test ****
+make all 
+Info: Building ../memory_test_bsp/
+C:/intelFPGA/17.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../memory_test_bsp/
+[BSP build complete]
+[memory_test build complete]
+11:01:10 **** Incremental Build of configuration Nios II for project memory_test ****
+make all 
+Info: Building ../memory_test_bsp/
+C:/intelFPGA/17.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../memory_test_bsp/
+[BSP build complete]
+[memory_test build complete]
+11:02:04 **** Incremental Build of configuration Nios II for project memory_test ****
+make all 
+Info: Building ../memory_test_bsp/
+C:/intelFPGA/17.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../memory_test_bsp/
+[BSP build complete]
+[memory_test build complete]
+11:02:55 **** Build of configuration Nios II for project memory_test ****
+make all 
+Info: Building ../memory_test_bsp/
+C:/intelFPGA/17.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../memory_test_bsp/
+[BSP build complete]
+[memory_test build complete]
+11:03:38 **** Incremental Build of configuration Nios II for project memory_test ****
+make all 
+Info: Building ../memory_test_bsp/
+C:/intelFPGA/17.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../memory_test_bsp/
+[BSP build complete]
+[memory_test build complete]

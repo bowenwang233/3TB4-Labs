@@ -1,0 +1,76 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+
+#include "stdio.h"
+#include "system.h"
+
+#define SDRAM_CONTROLLER_0_BASE 0X00000000
+
+#define BASE SDRAM_CONTROLLER_0_BASE
+
+int main()
+{
+  printf("Hello from MT-3TB4 Group 16\n");
+
+  int i;
+  //int char_err_num=0, short_err_num=0, int_err_num=0;
+
+  char read_char[5];
+  char write_char[5] = {'a', 'b', 'c', 'd', 'e'};
+  short read_short[5];
+  short write_short[5] = {'100', '200', '300', '400', '500'};
+  int read_int[5];
+  int write_int[5] = {'1111111', '211111122', '3333333', '44444444', '55555555'};
+  //----------------TEST CHAR-----------------------------------
+
+
+  for(int i=0; i<5 i++){
+	  (*volatile char)
+  }
+  /*
+  //printf("\n writing chars.....\n");
+  for (i=0; i<5; i++) {
+	 *(volatile char*)(SDRAM_CONTROLLER_0_BASE + i) = write_char[i];
+	 *(volatile char*)(SDRAM_CONTROLLER_0_BASE + 2*i) = write_short[i];
+	 *(volatile char*)(SDRAM_CONTROLLER_0_BASE + 4*i) = write_int[i];
+  }
+
+  for (i=0; i<5; i++) {
+  	 read_char[i] = *(volatile char*)(SDRAM_CONTROLLER_0_BASE + i);
+  	 read_short[i] = *(volatile char*)(SDRAM_CONTROLLER_0_BASE + 2*i);
+  	 read_int[i] = *(volatile char*)(SDRAM_CONTROLLER_0_BASE + 4*i);
+    }
+  for (i=0; i<5; i++) {
+	  if(read_char[i] != write_char[i]){
+		  printf("ERROR: char write\read failed at address %p\n", (void*)(SDRAM_CONTROLLER_0_BASE + i));
+		  return 0;
+	  }
+	  if(read_short[i] != write_short[i]){
+	  	  printf("ERROR: char write\read failed at address %p\n", (void*)(SDRAM_CONTROLLER_0_BASE + 2*i));
+	  	  return 0;
+	  }
+	  if(read_int[i] != write_int[i]){
+	  	  printf("ERROR: char write\read failed at address %p\n", (void*)(SDRAM_CONTROLLER_0_BASE + 4*i));
+	  	  return 0;
+	  }
+  }
+  */
+
+  printf("The test is successful");
+
+  return 0;
+}
