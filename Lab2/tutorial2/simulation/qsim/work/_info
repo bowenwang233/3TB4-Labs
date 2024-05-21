@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/bowen/OneDrive/Documents/School/Winter 2024/3TB4/Lab/lab2/tutorial2/simulation/qsim
+vclockDivider
+Z1 !s110 1707401973
+!i10b 1
+!s100 =YH=4AQ11NhB0gBWAmP[O2
+IjCYl2G6G7`_==V9Fd[Hl32
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1707401972
+Z3 8tutorial2.vo
+Z4 Ftutorial2.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1707401973.000000
+Z8 !s107 tutorial2.vo|
+Z9 !s90 -work|work|tutorial2.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+nclock@divider
+vclockDivider_vlg_vec_tst
+R1
+!i10b 1
+!s100 De:zf1JLMEZWB7;LfJi[41
+I:bN;DJ:I?gcEOk77]Y5mI2
+R2
+R0
+w1707401970
+Z12 8Waveform.vwf.vt
+Z13 FWaveform.vwf.vt
+Z14 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+Z15 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+nclock@divider_vlg_vec_tst
+vcounter
+Z16 !s110 1707335956
+!i10b 1
+!s100 `BBQ^?Ql7<dcNE2GRI[kA3
+I5]jWIW;C4ZSi=hdPDoLj_3
+R2
+R0
+w1707335955
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z17 !s108 1707335956.000000
+R8
+R9
+!i113 1
+R10
+R11
+vcounter_vlg_vec_tst
+R16
+!i10b 1
+!s100 K551z_7^2YQd0kN^KlVUZ3
+Iz;U@WKYWBSZI>0RWZhVAc0
+R2
+R0
+w1707335953
+R12
+R13
+R14
+R6
+r1
+!s85 0
+31
+R17
+!s107 Waveform.vwf.vt|
+R15
+!i113 1
+R10
+R11
